@@ -1,0 +1,44 @@
+
+<!----navigation bar ----------------------------------------------------->
+<nav class="nav fix-nav">
+<div class="nav-left">
+  <a href="#!/home" class="nav-item logo"><span class="summer">Kurt</span> <span class="break">Wyckoff</span></a>
+
+</div>
+
+<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+<span class="nav-toggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</span>
+
+<!-- This "nav-menu" is hidden on mobile -->
+<!-- Add the modifier "is-active" to dilinksplay it on mobile -->
+<div class="nav-right nav-menu">
+  <a href="#!/home" class="nav-item link">Home</a>
+  <a href="#!/pending" ng-hide="!userInfo.isAdmin" class="nav-item"><span class="holding-tank-number">{{ numberOfPending }}</span><i class="fa fa-archive archive-fix" aria-hidden="true"></i></a>
+
+  <span class="nav-item">
+    <a href="#!/users" id="sign-in-out" class="button" ng-hide="loggedIn" >
+      <span>Sign In/Register</span>
+    </a>
+    <a id="sign-in-out" class="button" ng-show="loggedIn">
+      <span ng-click="signOut()">Sign Out</span>
+    </a>
+  </span>
+</div>
+</nav>
+<!------------------------------------------------------------------------>
+<div class="details" ui-view></div>
+
+<!-- <footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>SummerBreak</strong>  developed by <a class="kurts-link" href="https://www.linkedin.com/in/rkwyckoff/">Kurt Wyckhoff</a> and <a  class="maries-link" href="https://github.com/mariefilbs">Marie Filbey.</a>
+      </p>
+    </div>
+  </div>
+</footer> -->

@@ -1,0 +1,72 @@
+<div class="modal is-active">
+ <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="select-event-card card">
+  <div class="select-event-image card-image">
+    <figure class="image is-3x2">
+      <img id="modal-image" ng-src="{{ event.photoUrl }}">
+    </figure>
+  </div>
+  <div class="card-content select-event-content">
+    <div class="media select-event-media">
+      <div class="media-left">
+      </div>
+      <div class="media-content">
+        <p class="title is-4">{{ event.title }}</p>
+        <p class="subtitle is-6"><a href="{{ event.activityUrl }}"> {{ event.activityUrl }}</p></a>
+      </div>
+    </div>
+
+    <div class="content">
+      {{ event.description }}
+      <br></br>
+      Admission Fee: {{ event.admissionFee }}
+      <br></br>
+      <p class="subtitle is-6">Contact: {{ event.contact }}</p>
+    </div>
+    <!-- <a ng-class="{'is-success' : attendingStatus(event.id), 'is-info': !attendingStatus(event.id)}" class="button is-info" ng-click="rsvp(event.id)">RSVP</a> -->
+    <!-- <i class="fa fa-map-marker" aria-hidden="true">Directions</i> -->
+
+  </div>
+</div>
+  <footer class="modal-card-foot" ng-hide="!loggedIn">
+    <article class="media">
+  <div class="media-content">
+    <div class="field">
+      <p class="control">
+        <textarea class="textarea" placeholder="Add a comment..."></textarea>
+      </p>
+    </div>
+    <nav class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <a class="button">Submit</a>
+          <a class="button" ng-click="deactivate()">Cancel</a>
+          <!--ADD? or POST??----->
+        </div>
+
+      </div>
+      <div class="level-right ">
+        <div class="level-item">
+          <a ng-class="{'is-success' : attendingStatus(event.id), 'is-grey': !attendingStatus(event.id)}" class="button is-grey" ng-click="rsvp(event.id)">RSVP</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</article>
+
+        <!-- <div class="comments">
+         <p ng-repeat="comment in comments"><span class="username-in-modal">{{ comment.User.firstName}} {{ comment.User.lastName }}</span>: {{ comment.description }}</p>
+         <p>{{ liveComment.description }}</p>
+       </div>
+       <div class="comment-box">
+       <input type="text" placeholder="Add comment..." ng-model="comment.description"/>
+        <div class="modal-buttons">
+          <a class="button add-comment" ng-click="addComment(comment)">Add</a>
+          <a class="button" ng-click="deactivate()">Cancel</a>
+        </div>
+       </div> -->
+    </footer>
+  <button class="modal-close" ng-click="deactivate()"></button>
+ </div>
+</div>
