@@ -4,7 +4,15 @@
   box-sizing: border-box;
   font-family: 'Cuprum', sans-serif;
 }
+.nav-title {
+  font-family: sans-serif;
+  color: white;
+  font-size: 50px;
+  letter-spacing: inherit;
+  text-align: center;
+  margin-left: 167px;
 
+}
 .fix-nav {
   position: fixed;
   width: 100%;
@@ -89,7 +97,7 @@ a.button {
   margin: 3px;
 }
 
-.nav-right {
+.nav-left {
   align-items: flex-start;
   .link {
     padding-top: 28px;
@@ -186,7 +194,7 @@ a.nav-item.logo {
 
 .middle {
   width: 1100px;
-  height: 600px;
+  height: 375px;
   margin: 25px;
   margin-left: 93px;
   margin-top: 55px;
@@ -206,9 +214,9 @@ a.nav-item.logo {
   border: 1px solid white;
   align-self: center;
   letter-spacing: 4px;
-  padding: 15px;
-  margin-left: -13px;
-  margin-top: -45px;
+  // padding: 15px;
+  margin-left: 27px;
+  margin-top: -55px;
 }
 
 .white-stat-container {
@@ -263,7 +271,7 @@ a.nav-item.logo {
   position: relative;
   height: 650px;
   // display: flex;
-  background-image: url('/images/teens.jpg');
+  background-image: url('/images/IMG_1465.png');
   background-position: center;
   background-size: cover;
   margin-right: -55px;
@@ -288,16 +296,16 @@ a.nav-item.logo {
 #who-we-are {
   color: #1D335F;
   font-size: 275%;
-  margin-left: 195px;
+  margin-left: 145px;
   margin-top: 15px;
-  width: 250px;
+  width: 300px;
 }
 
 .mission-statement{
   color: #1D335F;
-  margin-right: 408px;
-  font-size: 120%;
-  margin-top: -62px;
+  margin-right: 234px;
+  font-size: 175%;
+  margin-top: -57px;
   //display: inline-block;
   float: right;
   font-weight: bold;
@@ -307,19 +315,19 @@ a.nav-item.logo {
   color: #1D335F;
   margin-left: 499px;
   margin-top: -35px;
-  font-size: 120%;
+  font-size: 140%;
   font-weight: bold;
 
 }
 
-.fa.fa-thumbs-o-up.landing {
-  color: lightgrey;
-  float: right;
-  position: absolute;
-  margin-left: 980px;
-  margin-top: -70px;
-  transform:rotate(15deg);
-}
+// .fa.fa-thumbs-o-up.landing {
+//   color: lightgrey;
+//   float: right;
+//   position: absolute;
+//   margin-left: 980px;
+//   margin-top: -70px;
+//   transform:rotate(15deg);
+// }
 
 .landing {
   font-size: 750%;

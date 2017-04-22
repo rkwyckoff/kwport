@@ -22,11 +22,11 @@ function LayoutController ($scope, $rootScope, $state, $cookies, $http, SERVER) 
     $state.go('root.home');
   };
 
-  $scope.featured = [];
-  $http.get(`${SERVER}/activities/all/feature`).then(resp => {
-    //console.log(resp.data);
-    $scope.featured = resp.data;
-  })
+  // $scope.featured = [];
+  // $http.get(`${SERVER}/activities/all/feature`).then(resp => {
+  //   //console.log(resp.data);
+  //   $scope.featured = resp.data;
+  // })
 
   $scope.allEventsStat = [];
   $http.get(`${SERVER}/activities`).then(resp => {

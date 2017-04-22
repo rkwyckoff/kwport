@@ -2,7 +2,8 @@
 <!----navigation bar ----------------------------------------------------->
 <nav class="nav fix-nav">
 <div class="nav-left">
-  <a href="#!/home" class="nav-item logo"><span class="summer">Kurt</span> <span class="break">Wyckoff</span></a>
+  <!-- <a href="#!/home" class="nav-item logo"><span class="summer">Kurt</span> <span class="break">Wyckoff</span></a> -->
+<div class="nav-title">Kurt Wyckoff</div>
 
 </div>
 
@@ -18,11 +19,11 @@
 <!-- Add the modifier "is-active" to dilinksplay it on mobile -->
 <div class="nav-right nav-menu">
   <a href="#!/home" class="nav-item link">Home</a>
-  <a href="#!/pending" ng-hide="!userInfo.isAdmin" class="nav-item"><span class="holding-tank-number">{{ numberOfPending }}</span><i class="fa fa-archive archive-fix" aria-hidden="true"></i></a>
+  <!-- <a href="#!/pending" ng-hide="!userInfo.isAdmin" class="nav-item"><span class="holding-tank-number">{{ numberOfPending }}</span><i class="fa fa-archive archive-fix" aria-hidden="true"></i></a> -->
 
   <span class="nav-item">
-    <a href="#!/users" id="sign-in-out" class="button" ng-hide="loggedIn" >
-      <span>Sign In/Register</span>
+    <!-- <a href="#!/users" id="sign-in-out" class="button" ng-hide="loggedIn" > -->
+      <!-- <span>Sign In/Register</span> -->
     </a>
     <a id="sign-in-out" class="button" ng-show="loggedIn">
       <span ng-click="signOut()">Sign Out</span>
