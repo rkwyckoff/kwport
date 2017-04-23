@@ -104,7 +104,7 @@ a.button {
   align-items: flex-start;
   .link {
     padding-top: 28px;
-    color: #F3BA3A;
+    color: #1D335F;
     font-size: 143%;
   }
 }
@@ -175,8 +175,8 @@ a.nav-item.logo {
   width: 200px;
   height: auto;
   display: inline-block;
-  padding: 25px;
-  margin-top: 50px;
+  padding: 10px;
+  margin-top: 33px;
 }
 
 .featured-event-card p {
@@ -197,7 +197,7 @@ a.nav-item.logo {
 
 .middle {
   width: 1100px;
-  height: 375px;
+  height: 300px;
   margin: 25px;
   margin-left: 93px;
   margin-top: 55px;
@@ -268,14 +268,17 @@ a.nav-item.logo {
   width:  60px;
   border: 1px lightgrey solid;
   border-radius: 2em;
-  margin-top: -480px;
-  margin-left: 300px;
+  margin-top: -435px;
+  margin-left: 271px;
   position: absolute;
   font-size: 40px;
   font-weight: bold;
   background-color: white;
   text-align: center;
   color: #1D335F;
+}
+.bio-box a {
+  color: #1D335F
 }
 
 .git-me {
@@ -284,14 +287,55 @@ a.nav-item.logo {
   width:  60px;
   border: 1px lightgrey solid;
   border-radius: 2em;
-  margin-top: -480px;
-  margin-left: 981px;
+  margin-top: -432px;
+  margin-left: 1018px;
   position: absolute;
   font-size: 40px;
   font-weight: bold;
   background-color: white;
   text-align: center;
   color: #1D335F;
+}
+.git-me a {
+  color: #1D335F;
+}
+.blog {
+
+  height: 72px;
+  width:  72px;
+  border: 1px lightgrey solid;
+  border-radius: 2em;
+  margin-top: -435px;
+  margin-left: 904px;
+  position: absolute;
+  font-size: 38px;
+  padding: 2px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  color: #1D335F;
+}
+.blog a {
+  color: #1D335F;
+  padding: 3px;
+}
+.link-in {
+
+  height: 60px;
+  width:  60px;
+  border: 1px lightgrey solid;
+  border-radius: 2em;
+  margin-top: -431px;
+  margin-left: 382px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(0, 119, 181);
+  text-align: center;
+  color: white;
+}
+.link-in a {
+  color: white;
 }
 
 .landing-content {
@@ -303,9 +347,9 @@ a.nav-item.logo {
 
 .landing-container {
   position: relative;
-  height: 650px;
+  height: 670px;
   // display: flex;
-  background-image: url('/images/IMG_1465.png');
+  background-image: url('/images/IMG_1537.png');
   background-position: center;
   background-size: cover;
   margin-right: -55px;
@@ -751,7 +795,7 @@ i.fa.fa-heart {
 }
 
 .right-side {
-  margin-top: 63px;
+  margin-top: 62px;
   border: 1px solid #1D335F;
   position:relative;
 }
@@ -766,11 +810,14 @@ i.fa.fa-heart {
 
 .right-side {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 28px;
 }
 
 .about-us {
-  font-size: 200%;
+  font-size: 250%;
+}
+.about-us-desc {
+  font-size: 1.27em;
 }
 
 .terms {
@@ -788,14 +835,16 @@ i.fa.fa-heart {
 .contact-admin {
   border: 1px solid #1D335F;
   border-radius: 3px;
-  padding: 25px;
-  text-align: center;
-  width: 397px;
+  padding: 20px;
+  text-align: left;
+  width: 593px;
+  font-size: 1.3em;
+  margin-top: 10px;
 }
 
 img.about-us-img {
   border-radius: 3px;
-  height: 350px;
+  height: 493px;
   width: auto;
   padding-top: 50px;
 
