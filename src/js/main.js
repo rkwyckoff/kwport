@@ -8,12 +8,9 @@ import SERVER from './server'
 import setup from './setup';
 
 
-import UserController from './controllers/user';
+
 import LayoutController from './controllers/layout';
 import EventController from './controllers/events';
-import SelectEventController from './controllers/selectevent';
-import PendingEventsController from './controllers/pendingevents';
-import FBController from './controllers/fb';
 import EventService from './services/event';
 
 angular
@@ -22,10 +19,6 @@ angular
   .run(setup)
   .constant('SERVER', SERVER)
   .service('EventService', EventService)
-  .controller('UserController', UserController)
   .controller('LayoutController', LayoutController)
   .controller('EventController', EventController)
-  .controller('SelectEventController', SelectEventController)
-  .controller('PendingEventsController', PendingEventsController)
-  .controller('FBController', FBController)
   .value('duScrollOffset', 125);
