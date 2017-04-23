@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: 'Cuprum', sans-serif;
 }
+
+
 .nav-title {
   font-family: sans-serif;
   color: white;
@@ -260,6 +262,37 @@ a.nav-item.logo {
 
 }
 
+.bio-box {
+
+  height: 60px;
+  width:  60px;
+  border: 1px lightgrey solid;
+  border-radius: 2em;
+  margin-top: -480px;
+  margin-left: 300px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  color: #1D335F;
+}
+
+.git-me {
+
+  height: 60px;
+  width:  60px;
+  border: 1px lightgrey solid;
+  border-radius: 2em;
+  margin-top: -480px;
+  margin-left: 981px;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  color: #1D335F;
+}
 
 .landing-content {
   position: absolute;
