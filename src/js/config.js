@@ -19,11 +19,6 @@ function Config ($stateProvider, $urlRouterProvider) {
       controller: 'LayoutController'
     })
 
-    .state('root.events', {
-      url: '/events',
-      templateUrl: 'templates/events.tpl.html',
-      controller: 'EventController'
-    })
     
     .state('page-not-found', {
       url: '/not-found',

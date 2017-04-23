@@ -7,7 +7,7 @@ function setup ($rootScope, $cookies, $http, SERVER) {
     $http.defaults.headers.common['access-token'] = token;
 
     $rootScope.userInfo = $cookies.getObject('userInfo');
-  
+
   }
 }
 
