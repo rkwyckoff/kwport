@@ -185,6 +185,7 @@ a.nav-item.logo {
 
 .featured-event-card a {
   color: #1D335F;
+  font-size: 20px;
 }
 
 .featured-event-card a:hover {
@@ -219,7 +220,7 @@ a.nav-item.logo {
   letter-spacing: 4px;
   // padding: 15px;
   margin-left: 27px;
-  margin-top: -55px;
+  margin-top: -123px;
 }
 
 .white-stat-container {
@@ -283,21 +284,22 @@ a.nav-item.logo {
 
 .git-me {
 
-  height: 60px;
-  width:  60px;
-  border: 1px lightgrey solid;
-  border-radius: 2em;
+  // height: 60px;
+  // width:  60px;
+  // border: 1px lightgrey solid;
+  // border-radius: 2em;
   margin-top: -432px;
   margin-left: 1018px;
   position: absolute;
-  font-size: 40px;
-  font-weight: bold;
-  background-color: white;
-  text-align: center;
+  font-size: 67px;
+  // font-weight: bold;
+  // background-color: white;
+  // text-align: center;
   color: #1D335F;
 }
 .git-me a {
   color: #1D335F;
+
 }
 .blog {
 
@@ -361,7 +363,7 @@ a.nav-item.logo {
   width: 110%;
   opacity: 0.8;
   background-color: white;
-  margin-top: -150px;
+  margin-top: -200px;
   //margin-left: 5px;
   position: absolute;
   diplay: flex;
@@ -374,14 +376,14 @@ a.nav-item.logo {
 #who-we-are {
   color: #1D335F;
   font-size: 275%;
-  margin-left: 145px;
+  margin-left: 166px;
   margin-top: 15px;
   width: 300px;
 }
 
 .mission-statement{
   color: #1D335F;
-  margin-right: 234px;
+  margin-right: 217px;
   font-size: 175%;
   margin-top: -57px;
   //display: inline-block;
