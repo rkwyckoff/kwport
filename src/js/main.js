@@ -1,10 +1,10 @@
 import angular from 'angular';
 import 'angular-ui-router';
- import 'angular-cookies';
- import 'angular-scroll';
+import 'angular-cookies';
+import 'angular-scroll';
 
 import Config from './config';
-import SERVER from './server'
+import SERVER from './server';
 import setup from './setup';
 import LayoutController from './controllers/layout';
 
@@ -13,4 +13,4 @@ angular
   .config(Config)
   .run(setup)
   .constant('SERVER', SERVER)
-  .controller('LayoutController', LayoutController)
+  .controller('LayoutController', LayoutController);
